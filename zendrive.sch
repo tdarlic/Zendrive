@@ -1,0 +1,190 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM193 U?
+U 1 1 54AD893D
+P 4350 4850
+F 0 "U?" H 4500 5000 60  0000 C CNN
+F 1 "OPA2604" H 4550 4650 60  0000 C CNN
+F 2 "" H 4350 4850 60  0000 C CNN
+F 3 "" H 4350 4850 60  0000 C CNN
+	1    4350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM193 U?
+U 2 1 54AD898C
+P 5950 4850
+F 0 "U?" H 6100 5000 60  0000 C CNN
+F 1 "OPA2604" H 6150 4650 60  0000 C CNN
+F 2 "" H 5950 4850 60  0000 C CNN
+F 3 "" H 5950 4850 60  0000 C CNN
+	2    5950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +9V #PWR?
+U 1 1 54AD8B1F
+P 800 800
+F 0 "#PWR?" H 800 770 20  0001 C CNN
+F 1 "+9V" H 800 910 30  0000 C CNN
+F 2 "" H 800 800 60  0000 C CNN
+F 3 "" H 800 800 60  0000 C CNN
+	1    800  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 54AD8B5B
+P 800 2150
+F 0 "#PWR?" H 800 2150 30  0001 C CNN
+F 1 "GND" H 800 2080 30  0001 C CNN
+F 2 "" H 800 2150 60  0000 C CNN
+F 3 "" H 800 2150 60  0000 C CNN
+	1    800  2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP2 C?
+U 1 1 54AD8B6F
+P 800 1450
+F 0 "C?" H 800 1550 40  0000 L CNN
+F 1 "CP2" H 806 1365 40  0000 L CNN
+F 2 "" H 838 1300 30  0000 C CNN
+F 3 "" H 800 1450 60  0000 C CNN
+	1    800  1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP2 C?
+U 1 1 54AD8B93
+P 1750 1700
+F 0 "C?" H 1750 1800 40  0000 L CNN
+F 1 "CP2" H 1756 1615 40  0000 L CNN
+F 2 "" H 1788 1550 30  0000 C CNN
+F 3 "" H 1750 1700 60  0000 C CNN
+	1    1750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 54AD8C07
+P 1300 1100
+F 0 "R?" V 1380 1100 40  0000 C CNN
+F 1 "10K" V 1307 1101 40  0000 C CNN
+F 2 "" V 1230 1100 30  0000 C CNN
+F 3 "" H 1300 1100 30  0000 C CNN
+	1    1300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 54AD8C5C
+P 1300 1700
+F 0 "R?" V 1380 1700 40  0000 C CNN
+F 1 "10K" V 1307 1701 40  0000 C CNN
+F 2 "" V 1230 1700 30  0000 C CNN
+F 3 "" H 1300 1700 30  0000 C CNN
+	1    1300 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  800  800  1250
+Wire Wire Line
+	800  1650 800  2150
+Wire Wire Line
+	1300 1950 1300 2050
+Wire Wire Line
+	800  2050 1750 2050
+Connection ~ 800  2050
+Wire Wire Line
+	1300 1450 1300 1350
+Wire Wire Line
+	1300 850  1300 800 
+Wire Wire Line
+	1300 800  800  800 
+Wire Wire Line
+	1300 1400 2100 1400
+Wire Wire Line
+	1750 1400 1750 1500
+Connection ~ 1300 1400
+Wire Wire Line
+	1750 2050 1750 1900
+Connection ~ 1300 2050
+Text GLabel 2100 1400 2    60   Input ~ 0
+V2
+Connection ~ 1750 1400
+Wire Notes Line
+	600  550  600  2250
+Wire Notes Line
+	600  2250 2500 2250
+Wire Notes Line
+	2500 2250 2500 550 
+Wire Notes Line
+	2500 550  600  550 
+$Comp
+L JACK_2P J?
+U 1 1 54AD9100
+P 6900 2650
+F 0 "J?" H 6550 2450 60  0000 C CNN
+F 1 "JACK_2P" H 6750 2900 60  0000 C CNN
+F 2 "" H 6900 2650 60  0000 C CNN
+F 3 "" H 6900 2650 60  0000 C CNN
+	1    6900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L BARREL_JACK CON?
+U 1 1 54AD917D
+P 6950 3550
+F 0 "CON?" H 6950 3800 60  0000 C CNN
+F 1 "BARREL_JACK" H 6950 3350 60  0000 C CNN
+F 2 "" H 6950 3550 60  0000 C CNN
+F 3 "" H 6950 3550 60  0000 C CNN
+	1    6950 3550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
