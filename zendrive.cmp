@@ -1,0 +1,227 @@
+Cmp-Mod V01 Created by Cvpcb (2014-12-04 BZR 5312)-product   date = 7.1.2015. 23:35:36
+
+BeginCmp
+TimeStamp = /54AD9636;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AD8B6F;
+Reference = C1;
+ValeurCmp = 100uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AD8B93;
+Reference = C2;
+ValeurCmp = 47uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADDA73;
+Reference = C3;
+ValeurCmp = 470nF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADCF6C;
+Reference = C4;
+ValeurCmp = 3.3nF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AD9CBC;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADA3BF;
+Reference = C6;
+ValeurCmp = 470nF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADB220;
+Reference = C7;
+ValeurCmp = 100pF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AD917D;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADAD98;
+Reference = D1;
+ValeurCmp = BAT41;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADADE7;
+Reference = D2;
+ValeurCmp = BAT41;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADAE1E;
+Reference = D3;
+ValeurCmp = BAT41;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADB5B6;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADAC20;
+Reference = GAIN-RV2;
+ValeurCmp = 500K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AD9100;
+Reference = J1;
+ValeurCmp = JACK_INPUT;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADF5C6;
+Reference = J2;
+ValeurCmp = JACK_OUTPUT;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADAD1B;
+Reference = Q1;
+ValeurCmp = 2N7000;
+IdModule  = Discret:TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADAC84;
+Reference = Q2;
+ValeurCmp = 2N7000;
+IdModule  = Discret:TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AD8C07;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AD8C5C;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADDAF3;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADCB81;
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADA4CB;
+Reference = R5;
+ValeurCmp = 470K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADA45F;
+Reference = R6;
+ValeurCmp = 2M;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AD9D90;
+Reference = R7;
+ValeurCmp = 1K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADB5EC;
+Reference = R8;
+ValeurCmp = 1K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADB675;
+Reference = R9;
+ValeurCmp = 1K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADAAD2;
+Reference = SW1;
+ValeurCmp = 3PDT;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADCC06;
+Reference = TONE-RV3;
+ValeurCmp = 50K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AD893D;
+Reference = U1;
+ValeurCmp = OPA2604;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AD9D29;
+Reference = VOICE-RV1;
+ValeurCmp = 10K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADDB89;
+Reference = VOLUME-RV4;
+ValeurCmp = 100K;
+IdModule  = ;
+EndCmp
+
+EndListe
