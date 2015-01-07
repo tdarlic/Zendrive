@@ -1,0 +1,7 @@
+here there are the main differences for zendrive 2.
+1) substitute the diodes in the feedback loop and put the tubes instead with anode and grid connected together as one terminal and cathode as the other one. SYMMETRICAL CLIPPING HERE
+2) use a 1MB pot for gain control
+3)use a 0,22uF cap as the voice control cap
+4) filament of the tube powered at 9v dc
+
+Hope to have not made mistakes
