@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-04 BZR 5312)-product   date = 7.1.2015. 23:35:36
+Cmp-Mod V01 Created by Cvpcb (2014-12-04 BZR 5312)-product   date = 8.1.2015. 22:43:37
 
 BeginCmp
 TimeStamp = /54AD9636;
@@ -11,84 +11,84 @@ BeginCmp
 TimeStamp = /54AD8B6F;
 Reference = C1;
 ValeurCmp = 100uF;
-IdModule  = ;
+IdModule  = Capacitors_SMD:c_elec_6.3x5.3;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AD8B93;
 Reference = C2;
 ValeurCmp = 47uF;
-IdModule  = ;
+IdModule  = Capacitors_SMD:c_elec_5x5.3;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADDA73;
 Reference = C3;
 ValeurCmp = 470nF;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor7.5MMDiscRM5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADCF6C;
 Reference = C4;
 ValeurCmp = 3.3nF;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AD9CBC;
 Reference = C5;
 ValeurCmp = 100nF;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor7.5MMDiscRM5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADA3BF;
 Reference = C6;
 ValeurCmp = 470nF;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor7.5MMDiscRM5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADB220;
 Reference = C7;
 ValeurCmp = 100pF;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor7.5MMDiscRM5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AD917D;
 Reference = CON1;
 ValeurCmp = BARREL_JACK;
-IdModule  = ;
+IdModule  = Connect:BARREL_JACK;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADAD98;
 Reference = D1;
 ValeurCmp = BAT41;
-IdModule  = ;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADADE7;
 Reference = D2;
 ValeurCmp = BAT41;
-IdModule  = ;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADAE1E;
 Reference = D3;
 ValeurCmp = BAT41;
-IdModule  = ;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADB5B6;
 Reference = D4;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = Diodes_ThroughHole:Diode_LED_5mm_round_vertical;
 EndCmp
 
 BeginCmp
@@ -116,84 +116,84 @@ BeginCmp
 TimeStamp = /54ADAD1B;
 Reference = Q1;
 ValeurCmp = 2N7000;
-IdModule  = Discret:TO92;
+IdModule  = Housings_TO-92:TO-92-FET-inline-narrow-oval-SGD;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADAC84;
 Reference = Q2;
 ValeurCmp = 2N7000;
-IdModule  = Discret:TO92;
+IdModule  = Housings_TO-92:TO-92-FET-inline-narrow-oval-SGD;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AD8C07;
 Reference = R1;
 ValeurCmp = 10K;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AD8C5C;
 Reference = R2;
 ValeurCmp = 10K;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADDAF3;
 Reference = R3;
 ValeurCmp = 1K;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADCB81;
 Reference = R4;
 ValeurCmp = 10K;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADA4CB;
 Reference = R5;
 ValeurCmp = 470K;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADA45F;
 Reference = R6;
 ValeurCmp = 2M;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AD9D90;
 Reference = R7;
 ValeurCmp = 1K;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADB5EC;
 Reference = R8;
 ValeurCmp = 1K;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADB675;
 Reference = R9;
 ValeurCmp = 1K;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ADAAD2;
 Reference = SW1;
 ValeurCmp = 3PDT;
-IdModule  = ;
+IdModule  = zendrive:3PDT;
 EndCmp
 
 BeginCmp
@@ -207,7 +207,7 @@ BeginCmp
 TimeStamp = /54AD893D;
 Reference = U1;
 ValeurCmp = OPA2604;
-IdModule  = ;
+IdModule  = Sockets_DIP:DIP-8__300_ELL;
 EndCmp
 
 BeginCmp
